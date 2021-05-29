@@ -1636,65 +1636,68 @@ input, select, textarea {
 		text-align: center;
 	}
 
-		#footer .copyright {
-			letter-spacing: 0.2rem;
-			font-size: 0.6rem;
-			opacity: 0.75;
-			margin-bottom: 0;
-			text-transform: uppercase;
-		}
+	#footer .copyright {
+		letter-spacing: 0.2rem;
+		font-size: 0.6rem;
+		opacity: 0.75;
+		margin-bottom: 0;
+		text-transform: uppercase;
+	}
 
-		body.is-article-visible #footer {
-			-moz-transform: scale(0.95);
-			-webkit-transform: scale(0.95);
-			-ms-transform: scale(0.95);
-			transform: scale(0.95);
-			-moz-filter: blur(0.1rem);
-			-webkit-filter: blur(0.1rem);
-			-ms-filter: blur(0.1rem);
-			filter: blur(0.1rem);
-			opacity: 0;
-		}
+	body.is-article-visible #footer {
+		-moz-transform: scale(0.95);
+		-webkit-transform: scale(0.95);
+		-ms-transform: scale(0.95);
+		transform: scale(0.95);
+		-moz-filter: blur(0.1rem);
+		-webkit-filter: blur(0.1rem);
+		-ms-filter: blur(0.1rem);
+		filter: blur(0.1rem);
+		opacity: 0;
+	}
 
-		body.is-preload #footer {
-			opacity: 0;
-		}
+	body.is-preload #footer {
+		opacity: 0;
+	}
 
-		.googleform-wrapper {
-			position: relative;
-			width: 100%;
-			height: 900px;
-			overflow-y: scroll;
-			margin-bottom: 2.0em;
-		}
-		
-		.googleform-wrapper iframe {
-			position: absolute;
-			top: 0;
-			left: 0;
-			width: 100%;
-			height: 100%;
-			background-color:rgba(255, 255, 255, 0.175);
-		}
+/* Custom */
 
-		.googlecalendar-wrapper {
-			position: relative;
-			width: 100%;
-			height: 500px;
-			overflow-y: scroll;
-			margin-bottom: 2.0em;
-		}
+	.googleform-wrapper {
+		position: relative;
+		width: 100%;
+		height: 900px;
+		overflow-y: scroll;
+		margin-bottom: 2.0em;
+	}
+	
+	.googleform-wrapper iframe {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		background-color:rgba(255, 255, 255, 0.175);
+	}
 
-		.googlecalendar-wrapper iframe {
-			position: absolute;
-			top: 0;
-			left: 0;
-			width: 100%;
-			height: 100%;
-			background-color:rgba(255, 255, 255, 0.175);
-		}
+	.googlecalendar-wrapper {
+		position: relative;
+		width: 100%;
+		height: 500px;
+		overflow-y: scroll;
+		margin-bottom: 2.0em;
+	}
 
-		#header .logo .icon {
-			width: 100%;
-			height: 100%;
-		}
+	.googlecalendar-wrapper iframe {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		background-color:rgba(255, 255, 255, 0.175);
+	}
+
+	#header .logo .icon {
+		width: 100%;
+		height: 100%;
+	}
+	
